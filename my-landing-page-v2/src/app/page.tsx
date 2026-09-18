@@ -1,20 +1,3 @@
-const mdvLogo = `
-    ███▄ ▄███▓  ██████▄   ██▒   █▓
-    ▓██▒▀█▀ ██▒  ██▒  ██▒ ▓██░   █▒
-    ▓██    ▓██░  ██░  ██▒  ▓██  █▒░
-    ░██    ░██   ██░  ██▄   ▒██ █░ 
-    ░██▒   ░██▒ ██████▀▒     ▒██▒  
-    ░ ▒░   ░  ░ ░▓▒  ▄▒      ░ ▐░  
-    ░  ░      ░ ░▒   ▒       ░ ░░  
-          ░     ░ ░   ░        ░░  
-                ░               ░  
-    [ DESIGNED & DEVELOPED BY MDV - 2026 ]
-`;
-console.log(
-  `%c${mdvLogo}`,
-  "color: #00ff88; font-family: monospace; font-weight: bold;",
-);
-
 import MyNavbar from "./components/navbar/myNavbar";
 import MyMain from "./components/main/myMain";
 import MdvLogo from "./components/text/mdvLogo";
